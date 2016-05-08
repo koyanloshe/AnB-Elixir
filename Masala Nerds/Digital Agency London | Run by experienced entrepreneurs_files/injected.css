@@ -1,0 +1,206 @@
+body > div#SEOmoz-status-overlay {
+  z-index: 9999999;
+  position: fixed !important;
+  top: 10px !important;
+  right: 10px !important;
+  background: #eee !important;
+  opacity: 0.8 !important;
+  height: 0 !important;
+  width: 300px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: 0 !important;
+  overflow: hidden !important;
+}
+
+body > div#SEOmoz-status-overlay.rendered {
+  height: 100px !important;
+}
+
+body > div#SEOmoz-status-overlay > iframe {
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 100px !important;
+  width: 300px !important;
+  border: 0 !important;
+  overflow: hidden !important;
+}
+
+body > div#SEOmoz-overlay-container {
+}
+
+body > div#SEOmoz-overlay {
+  z-index: 9999998 !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100% !important;
+}
+body > iframe#SEOmoz-overlay-frame {
+  z-index: 9999999 !important;
+  position: fixed !important;
+  height: 0px;
+  top: 20px !important;
+  visibility: hidden !important;
+  width: 800px !important;
+  overflow: hidden !important;
+  background: white !important;
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 auto !important;
+}
+
+body > div#SEOmoz-overlay > iframe#SEOmoz-edit-profile-frame {
+  z-index: 9999999 !important;
+  height: 400px !important;
+  width: 429px !important;
+  overflow: hidden !important;
+  background: transparent !important;
+  border: 0 !important;
+  padding: 0 !important;
+  position: fixed !important;
+  margin: 0 auto !important;
+}
+
+body > iframe#SEOmoz-overlay-frame.rendered {
+  visibility: visible !important;
+}
+
+#web .res, #web li.last .res {
+  margin-bottom: 0px;
+}
+.seomoz-SERP-overlay.moz-yahoo {
+  margin-bottom: 30px;
+}
+
+.seomoz-SERP-overlay {
+  background-color: #f0f7f9 !important;
+  padding: 8px !important;
+  margin: 5px 0 !important;
+  height: 20px !important;
+  font: normal 11px/20px normal Arial, Helvetica, sans-serif !important;
+  color: #000 !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  position: relative !important;
+}
+
+.seomoz-SERP-overlay.unloaded {
+  padding-left: 25px !important;
+  background: #f0f7f9 url(chrome://mozbar/skin/images/serp_loader.gif) no-repeat 5px center !important;
+}
+
+.seomoz-SERP-overlay.unloaded iframe {
+  display: none !important;
+}
+
+.seomoz-SERP-overlay iframe {
+  background: #f0f7f9 !important;
+  width: 100% !important;
+  margin: 0 !important;
+  border: none !important;
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;  
+  white-space:nowrap !important;
+}
+
+#SEOmoz-SERP-panel {
+  background: none repeat scroll 0 0 transparent !important;
+  border: 0 none !important;
+  margin: 0 !important;
+  opacity: 1 !important;
+  overflow: visible !important;
+  padding: 0 !important;
+  position: absolute !important;
+  right: 100px;
+  top: 58px;
+  width: 234px !important;
+  z-index: 9999997 !important;
+  height: 24px !important;
+  overflow: hidden !important;
+  outline: 1px solid transparent !important;
+}
+#SEOmoz-SERP-panel.seomoz-serp-open {
+  overflow: visible !important;
+}
+
+#SEOmoz-SERP-panel #SEOmoz-SERP-panel-header {
+  text-indent: -9999em;
+  position: relative;
+  float: left;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  width: 234px;
+  cursor: move;
+  background: rgba(0,0,0,0.7) url(chrome://mozbar/skin/images/Overlays/SERPPanel/header.png) no-repeat center center !important;
+}
+#SEOmoz-SERP-panel #SEOmoz-SERP-panel-header #SEOmoz-SERP-panel-toggle {
+  position: absolute;
+  display: block;
+  top: 0px;
+  left: 210px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  background-position: 0 0px;
+  background: transparent url(chrome://mozbar/skin/images/Overlays/Common/toggle-off.png) no-repeat center center !important;
+}
+
+#SEOmoz-SERP-panel.seomoz-serp-open #SEOmoz-SERP-panel-header #SEOmoz-SERP-panel-toggle {
+  background-image: url(chrome://mozbar/skin/images/Overlays/Common/toggle.png) !important;
+}
+
+body > div#SEOmoz-SERP-panel iframe {
+  background: #fff !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  position: absolute !important;
+  left: 0 !important;
+  top: 24px !important;
+  overflow: hidden !important;
+}
+
+/* HIGHLIGHTER */
+body .seomoz-highlight {
+  display: inline;
+}
+body .seomoz-highlight.seomoz-highlight-follow {
+  background-color: #4f4 !important;
+}
+body .seomoz-highlight.seomoz-highlight-follow img {
+  border: 2px solid #4f4 !important;
+}
+body .seomoz-highlight.seomoz-highlight-nofollow {
+  background-color: pink !important;
+}
+body .seomoz-highlight.seomoz-highlight-nofollow img {
+  border: 2px solid pink !important;
+}
+body .seomoz-highlight.seomoz-highlight-internal {
+  background-color: orange !important;
+}
+body .seomoz-highlight.seomoz-highlight-internal img {
+  border: 2px solid orange !important;
+}
+body .seomoz-highlight.seomoz-highlight-external {
+  background-color: #4cf  !important;
+}
+body .seomoz-highlight.seomoz-highlight-external img {
+  border: 2px solid #4cf  !important;
+}
+body .seomoz-highlight-keyword {
+  background-color: yellow !important;
+  display: inline;
+}
+body .seomoz-highlight-keyword img {
+  border: 2px solid yellow !important;
+}

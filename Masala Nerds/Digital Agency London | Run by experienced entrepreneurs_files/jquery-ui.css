@@ -1,0 +1,143 @@
+@media (max-width:767px)
+{
+	#price-calculator{display:none}
+}
+
+
+#total {
+    font-size: 12pt;
+}
+#total, #price, #priceb, #pricec, #priced, #pricee, #pricef, #pricez {
+    text-align: left;
+    width: 60px;
+}
+
+#quoteme label {
+    float: left;
+    display: block;
+    padding-top: 10px;
+    display: block;
+    color: #fff;
+    font-family: Georgia;
+
+}
+#contenta {
+    padding:1px 0px 20px 0px;
+    display: block;
+
+    text-align: left;
+    font-size: 11pt;
+}
+.pricepara {
+    text-align: center; font-size: 14pt; clear:both; padding-top:25px;
+}
+.pricepara #totalprice {
+    padding-top: 0px;
+    margin-top: 0px;
+    border: 0px solid #000;
+    font-size: 12pt;
+    font-weight: bold;
+}
+#total {
+    width: 100px;
+    border: 0px solid #000;
+    background: transparent;
+    font-size: 60px;
+	font-weight:bold;
+    color: #fff;
+	margin-bottom: 0;
+    padding: 0;
+    width: 100%;
+	text-align:center;
+}
+#quoteme {
+
+    display: block;
+    float :left;
+    clear: both;
+	width:100%;
+    padding: 30px 0px 10px 0px;
+	font-size:11px;
+	line-height:15px;
+}
+#slider, #sliderb, #sliderc, #sliderd, #slidere {
+}
+
+.slide {
+    float: left;
+	width:20%;
+}
+
+.level-head{background-color: #97bfca; border-radius: 50%; color: #000; margin: 0 auto 30px; padding: 35px 10px; text-align: center; width: 45%; 
+height:100px;}
+.level-top{color:#fff; float:left;text-align: right; width: 50%; padding-right:27px}
+.level-bottom{color:#fff; float:left; margin-top:-40px;text-align: right;width: 50%; padding-right:27px;}
+
+.ui-widget { font-family: Verdana,Arial,sans-serif; font-size: 1.1em; }
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Verdana,Arial,sans-serif; font-size: 1em; }
+.ui-widget-content {background: #ffffff 50% 50% repeat-x; color: #222222; }
+.ui-widget-content a { color: #222222; }
+.ui-widget-header { background:50% 50% repeat-x; color: #222222; font-weight: bold; }
+.ui-widget-header a { color: #222222; }
+
+.ui-resizable { position: relative;}
+.ui-resizable-handle { position: absolute;font-size: 0.1px;z-index: 99999; display: block;}
+.ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle { display: none; }
+.ui-slider { position: relative; text-align: left; border: 0px; }
+.ui-slider .ui-slider-handle { position: absolute; z-index: 2; width:54px; height:21px; cursor: pointer; background-image:url(../css/moustache.png); background-repeat:no-repeat }
+.ui-slider .ui-slider-range { position: absolute; z-index: 1; font-size: .7em; display: block; border: 0px; }
+
+.ui-slider-horizontal { height: .4em; background: #888; border: 0px; }
+.ui-slider-horizontal .ui-slider-handle { top: -.5em; margin-left: -.6em;border: 0px; }
+.ui-slider-horizontal .ui-slider-range { top: 0; height: 100%;border: 0px; }
+.ui-slider-horizontal .ui-slider-range-min { left: 0;border: 0px; }
+.ui-slider-horizontal .ui-slider-range-max { right: 0; border: 0px;}
+
+.ui-slider-vertical { width:13px; height: 250px;border: 0px; border-radius:5px; margin:0 auto}
+.ui-slider-vertical .ui-slider-handle { left: -20px; margin-left: 0; margin-bottom: -0.6em;border: 0px;}
+.ui-slider-vertical .ui-slider-range { left: 0; width: 100%; border: 0px;}
+.ui-slider-vertical .ui-slider-range-min { bottom: 0; border: 0px;}
+.ui-slider-vertical .ui-slider-range-max { top: 0; border: 0px;}
+
+.price-tag {
+    display: none;
+}
+
+
+
+@media (min-width:768px) and (max-width:800px)
+{
+	.level-head{width:70%}
+}
+
+@media (min-width:801px) and (max-width:849px)
+{
+	.level-head{width:66%}
+}
+
+@media (min-width:850px) and (max-width:899px)
+{
+	.level-head{width:61%}
+}
+
+@media (min-width:900px) and (max-width:949px)
+{
+	.level-head{width:58%}
+}
+
+@media (min-width:950px) and (max-width:999px)
+{
+	.level-head{width:55%}
+}
+
+@media (min-width:1000px) and (max-width:1049px)
+{
+	.level-head{width:51%}
+}
+
+@media (min-width:1050px) and (max-width:1279px)
+{
+	.level-head{width:48%}
+}
+
+
